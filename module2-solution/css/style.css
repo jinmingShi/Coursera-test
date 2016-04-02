@@ -10,9 +10,11 @@ h1 {
 p {
   clear: right;
   padding: 7px;
+  font-size: 120%;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+
 }
-
-
 
 .title {
     position: relative;
@@ -22,11 +24,13 @@ p {
     padding: 5px 20px;
     background-color: yellow;
     border: 1px solid black;
+    font-size: 150%;
+    color: red;
   }
 
-.wrap { 
+.wrap1, .wrap2, .wrap3{ 
   border: 1px solid black;
-  margin: 12px;
+  margin: 10px;
   background-color: grey;
 }
 
@@ -45,6 +49,16 @@ p {
   .col-md-1 {
   	width: 100%;
     clear: both;
+  }
+  .wrap1 {
+    margin: 0px 10px 10px 10px;
+  }
+  .wrap2 {
+    margin: 0px 10px 0px 0px;
+  }
+  .wrap3 {
+    margin-top: 10px;
+  }
 }
 
 @media(max-width: 767px) {
