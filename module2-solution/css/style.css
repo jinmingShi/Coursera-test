@@ -28,15 +28,15 @@ p {
     color: red;
   }
 
-.wrap1, .wrap2, .wrap3{ 
+.wrap { 
   border: 1px solid black;
-  margin: 10px;
+  margin: 15px;
   background-color: grey;
 }
 
 @media(min-width: 992px) {
   .col-lg-3{
-  	width: 33.3%;
+  	width: 33.333%;
   	float: left;
   }
 }
@@ -50,14 +50,8 @@ p {
   	width: 100%;
     clear: both;
   }
-  .wrap1 {
-    margin: 0px 10px 10px 10px;
-  }
-  .wrap2 {
-    margin: 0px 10px 0px 0px;
-  }
-  .wrap3 {
-    margin-top: 10px;
+  div section:nth-child(2) .wrap {
+    margin-left: 0px;
   }
 }
 
